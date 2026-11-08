@@ -70,3 +70,37 @@ All corresponding Postman assertions passed
 **Status:** PASS
 
 ---
+
+## API-TC-003 — Retrieve All Posts
+
+**Endpoint:** `GET /posts`
+
+**Test Type:** Positive
+
+**Test Objective:**
+Verify that the GET /posts endpoint successfully returns an array containing 100 posts.
+The 100 posts begin with post ID 1, and each post contains valid IDs and non-empty string titles and bodies.
+
+**Preconditions:**
+- The API is accessible.
+
+**Test Steps:**
+1. Open the GET /posts request in Postman.
+2. Send the request.
+3. Examine the response and test results.
+
+**Expected Results:**
+1. HTTP status is 200 OK.
+2. Response body is a JSON array.
+3. The array contains exactly 100 posts.
+4. The first post has an ID of 1.
+5. Every post's id is an integer.
+6. Every title is a non-empty string.
+7. Every body is a non-empty string.
+
+**Actual Result:**
+All corresponding Postman assertions passed.
+
+**Status:**PASS
+
+---
