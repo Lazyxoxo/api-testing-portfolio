@@ -41,3 +41,32 @@ All corresponding Postman assertions passed.
 **Status:** PASS
 
 ---
+
+## API-TC-002 — Retrieve a Nonexistent Post
+
+**Endpoint:** GET /posts/9999
+
+**Test Type:** Negative
+
+**Test Objective:**
+Verify that requesting a nonexistent post returns HTTP 404 Not Found and an empty JSON object {}.
+
+**Preconditions:**
+- The API is accessible.
+- Post ID 9999 does not exist.
+
+**Test Steps:**
+1. Open the GET /posts/9999 request in Postman.
+2. Send the request.
+3. Examine the response and test results.
+
+**Expected Results:**
+1. HTTP status is 404 Not Found.
+2. Response body is an empty JSON object `{}`.
+
+**Actual Result:**
+All corresponding Postman assertions passed
+
+**Status:** PASS
+
+---
