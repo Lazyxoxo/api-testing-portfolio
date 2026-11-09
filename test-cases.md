@@ -2,10 +2,12 @@
 
 ## Project Overview
 
-API: JSONPlaceholder
-Base URL: https://jsonplaceholder.typicode.com
-Testing Tool: Postman
-Test Types: Positive, Negative, Response Validation
+| Field | Details |
+|---|---|
+| API | JSONPlaceholder |
+| Base URL | https://jsonplaceholder.typicode.com |
+| Testing Tool | Postman |
+| Test Types | Positive, Negative, Response Validation |
 
 ---
 
