@@ -42,6 +42,6 @@ All three API test cases were executed successfully in Postman, with **17 of 17 
 | API-TC-002 | `GET /posts/9999` | 2/2 | [View Screenshot](evidence/API-TC-002.png) |
 | API-TC-003 | `GET /posts` | 9/9 | [View Screenshot](evidence/API-TC-003.png) |
 
-**Overall Result:** PASS — 17/17 assertions passed.
+**Overall Result:** PASS — All 17 automated Postman tests passed across three API requests.
 
 The screenshots show the HTTP request, response status, and automated assertion results for each test case.
