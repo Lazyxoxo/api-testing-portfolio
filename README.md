@@ -34,9 +34,9 @@ Detailed test steps, expected results, and execution outcomes are documented in 
 
 ## Test Results and Evidence
 
-All three API test cases were executed successfully in Postman, with **17 of 17 automated assertions passing**.
+All three API test cases were executed successfully in Postman, with **17 automated Postman tests**.
 
-| Test Case ID | Endpoint | Assertions Passed | Evidence |
+| Test Case ID | Endpoint | Tests Passed | Evidence |
 |---|---|---|---|
 | API-TC-001 | `GET /posts/1` | 6/6 | [View Screenshot](evidence/API-TC-001.png) |
 | API-TC-002 | `GET /posts/9999` | 2/2 | [View Screenshot](evidence/API-TC-002.png) |
